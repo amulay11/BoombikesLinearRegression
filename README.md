@@ -1,5 +1,6 @@
 # Boombikes Multiple Linear Regression
-> Problem Statement
+- Problem Statement:
+
     Boombikes is a bike sharing company in the US that offers shared bikes to people on rent/free.
     BoomBikes aspires to understand the demand for shared bikes among the people and identify what factors it depends upon.
     A consulting company has gathered a large dataset on daily bike demands across the American market based on some factors.
@@ -7,7 +8,8 @@
     -- Which variables are significant in predicting the demand for shared bikes. 
     -- How well those variables describe the bike demands
 
-> Business Goal
+- Business Goal:
+
     Build a model to predict the demand for shared bikes with the available independent variables
     The model will be a good way for management to formulate/adapt business strategy to meet the demand levels and meet the customer's expectations and understand the demand dynamics of a new market
 
@@ -31,9 +33,10 @@
 
 ## Conclusions
 - Based on the final model the top 3 features contributing significantly towards explaining the demand of the shared bikes are:
-    a.	temp: temperature in Celsius - with a coefficient of 0.5499
-    b.	weathersit - cloudy - with a coefficient of -0.2871
-    c.	yr : year (0: 2018, 1:2019) - with a coefficient of 0.2331
+
+    - temp: temperature in Celsius - with a coefficient of 0.5499
+    - weathersit - cloudy - with a coefficient of -0.2871
+    - yr : year (0: 2018, 1:2019) - with a coefficient of 0.2331
 
 
 
